@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>SYMPSEARCH - Find  a doctor by symptom</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/vendors.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div>
+
+    
+	<header class="static">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-6">
+					<div id="logo_home">
+						<h1><a href="index.html" title="SympSearch">Home</a><h3>SympSearch</h3></h1>
+					</div>
+				</div>
+				<nav class="col-lg-9 col-6">
+					<ul id="top_access">
+						<li><a href="login.html"><i class="pe-7s-user"></i></a></li>
+						<li><a href="register-doctor.html"><i class="pe-7s-add-user"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div id="results">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h4><strong>Doctor Results</strong></h4>
+					</div>
+					<!--Search Form and Button-->
+					<div class="col-md-6">
+						<div class="search_bar_list">
+							<input type="text" class="form-control" id="condition" name="condition" placeholder="Ex. Asthma. . .">
+							<input type="submit" id="search-button" value="Search">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--Being Printed from index.js-->
+		
+
+		<div class="container margin_60_35">
+			<div class="row">
+				<div class="col-lg-7">
+
+					<div class="strip_list wow fadeIn">
+							<div class="test" id="test"></div>
+
+					</div>
+					
+					<!-- /pagination -->
+				</div>
+				<!-- /col -->
+				
+				<aside class="col-lg-5" id="sidebar">
+					<div id="map_listing" class="normal_list">
+					</div>
+				</aside>
+				<!-- /aside -->
+				
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</main>
+	<!-- /main -->
+	
+	<footer>
+		<div class="container margin_60_35">
+			<div class="row">
+				<div class="col-lg-3 col-md-12">
+					<p>
+						<a href="index.html" title="Findoctor">
+							<img src="img/doctor-symbol-png--1862.jpg" data-retina="true" alt="" width="163" height="36" class="img-fluid">
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<h5>About</h5>
+					<ul class="links">
+						<li><a href="#0">About us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#0">FAQ</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<h5>Useful links</h5>
+					<ul class="links">
+						<li><a href="#0">Doctors</a></li>
+						<li><a href="#0">Clinics</a></li>
+						<li><a href="#0">Specialization</a></li>
+
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<h5>Contact with Us</h5>
+					<ul class="contacts">
+						<li><a href="tel: 1-800-123-4567"><i class="icon_mobile"></i> 1-800-123-4567</a></li>
+						<li><a href="mailto:info@sympsearch.com"><i class="icon_mail_alt"></i> helpdesk@sympsearch.com</a></li>
+					</ul>
+					<div class="follow_us">
+						<h5>Follow us</h5>
+						<ul>
+							<li><a href="#0"><i class="social_facebook"></i></a></li>
+							<li><a href="#0"><i class="social_twitter"></i></a></li>
+							<li><a href="#0"><i class="social_linkedin"></i></a></li>
+							<li><a href="#0"><i class="social_instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--/row-->
+			<hr>
+			<div class="row">
+				<div class="col-md-8">
+					<ul id="additional_links">
+						<li><a href="#0">Terms and conditions</a></li>
+						<li><a href="#0">Privacy</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<div id="copy">© 2018 SympSearch</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/footer-->
+
+	<div id="toTop"></div>
+	<!-- Back to top button -->
+
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/common_scripts.min.js"></script>
+	<script src="js/functions.js"></script>
+	<!--<script src="http://maps.googleapis.com/maps/api/js"></script>--> 
+	
+	
+		  <!-- index.js file for APIs -->
+		  <script src ="js/list.js"></script>
+		  <script src="js/index.js"></script>
+		  <!-- <script src="js/googlemap.js"></script> -->
+	  
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANUV56HxeOeiH54Wfjq53JJCCRulGBqZM"> </script>
+
+
+</body>
+</html>
